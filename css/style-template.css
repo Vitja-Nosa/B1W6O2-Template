@@ -5,8 +5,9 @@ body {
 }
 .logo {
 	position: fixed;
-  	top: 240px;
- 	left: 590px;
+  	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
     width: 350px;
 }
 .icon-text {
@@ -14,8 +15,8 @@ body {
 	display: inline-block;
 	text-align: center;
 	margin-right: 50px;
-	left: 460px;
-	top: 455px;
+	left: 360px;
+	top: 400px;
 }
 .fas {
 	color: gray;
@@ -44,7 +45,7 @@ a {
 	color: white;
 }
 .fa-wifi {
-	padding: 6px 5px 9.5px 6px;
+	padding: 5px 5px 9.5px 6px;
 	color: white;
 	background-color: #A4A4A4;
 }
@@ -79,12 +80,12 @@ p {
 	margin: 0 auto;
 	border-top: 1px white solid;
 	padding-top: 20px;
-	padding-bottom: 200px;
+	padding-bottom: 100px;
 }
-.icon-text_features {
+.icon-text_shared {
 	position: relative;
 	display: inline-block;
 	text-align: center;
 	margin-right: 50px;
-	left: 455px;	
+	left: 350px;
 }
